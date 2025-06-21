@@ -1,4 +1,4 @@
-# 🤖 Chatbot with LangChain & Groq (LLaMA 3)
+🤖 Chatbot with LangChain, Groq (LLaMA 3), and RAG-based Document Retrieval on (ATTENTION.pdf paper)
 
 A lightweight and fast AI chatbot built using **LangChain**, **Groq API (LLaMA3-8B)**, and a **Streamlit web interface**.  
 It takes user input, formats it with a structured prompt, invokes Groq-hosted LLM, and returns an intelligent response.
@@ -31,4 +31,25 @@ Web page link : https://chatbot-yiojk6aafaxihdccsgfuqi.streamlit.app/
   
 - Easily extendable with tools, memory, or RAG
 
-### This is the simple implementation of LangChain and Groq llm to build a basic chatbot, created for practice purpose.
+
+## 📚 New: RAG (Retrieval-Augmented Generation)
+
+Integrated RAG-based pipeline to allow chatbot responses using custom documents.
+
+🔍 Key Steps:
+
+  - Ingested content from attention.pdf
+
+  - Split into chunks using LangChain Text Splitter
+
+  - Embedded using Groq-compatible embedding model
+
+  - Stored in Chroma and FAISS vector databases
+
+  - Used retrieval chain to fetch relevant context for user queries
+
+  - Enhanced chatbot responses using custom knowledge base
+
+## 🚀 Summary:
+
+This project combines the power of LangChain, Groq LLM, and RAG architecture. Ideal for learning and extending real-world AI applications.
