@@ -6,5 +6,15 @@ langchain-community
 python-dotenv
 langchain_core
 
+langserve
+fastapi
+uvicorn
+sse_starlette
 
+bs4 # beautiful soup
+sentence-transformers
+pypdf
+chromadb
+faiss-cpu
 
+langchain-huggingface
